@@ -101,7 +101,6 @@
     width: 400%;
     height: 100%;
     position: relative;
-    animation: slideshow 24s infinite;
 }
 
 @keyframes slideshow {
@@ -183,4 +182,34 @@
 
 .content i {
     margin-left: 8px;
+}
+
+@media(max-width: 1000px) {
+    .banner h1 {
+        font-size: 80px;
+    }
+}
+
+@media(max-width: 650px) {
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner button {
+        width: 130px;
+        padding: 7px;
+        font-size: 20px;
+    }
+
+    .content {
+        width: 300px;
+    }
+
+    .content h3 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
 }
