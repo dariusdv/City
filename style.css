@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.banner {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.banner h1 {
+    color: #91130f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 120px;
+    margin-bottom: 100px;
+    border-top: 5px solid #91130f;
+    border-bottom: 5px solid #91130f;
+}
+
+.banner button {
+    width: 180px;
+    padding: 10px;
+    background: linear-gradient(to right, #440402, #c0120C);
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    transform: perspective(500px) rotateY(-15deg);
+    text-shadow: 6px 3px 2px rgba(0, 0, 0, .4);
+    cursor: pointer;
+
+}
+
+.slideshow-wrapper {
+    display: none;
+}
